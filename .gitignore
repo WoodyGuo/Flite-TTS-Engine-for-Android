@@ -1,6 +1,5 @@
 bin/
 libs/
-flite/
 gen/
 obj/
 build.properties
