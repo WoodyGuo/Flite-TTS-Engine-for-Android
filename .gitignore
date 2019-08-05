@@ -7,3 +7,37 @@ build.properties
 local.properties
 ant.properties
 *~
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+generated/
+
+# Android
+.externalNativeBuild/
+.project
+.settings
+.classpath
+!android/**/res/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android related
+**/gradle-wrapper.jar
+.gradle
+captures/
+gradlew
+gradlew.bat
+local.properties
+**/GeneratedPluginRegistrant.java
+build/
